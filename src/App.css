@@ -1,0 +1,46 @@
+body {
+  margin: 0;
+}
+
+.root {
+  width: 50rem;
+  margin: 0 auto;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  background: #eee;
+  height: -webkit-fill-available;
+}
+
+.messages {
+  display: flex;
+  flex-direction: column-reverse;
+  flex: 1;
+  padding-bottom: 1rem;
+  overflow: auto;
+}
+
+.message {
+  padding: 0.5rem;
+  background: #ccc;
+  width: 30rem;
+  margin: 0.2rem;
+  border-radius: 5px;
+}
+
+.myMessage {
+  align-self: flex-end;
+  background: #4db5d9;
+  color: #fff;
+}
+
+.inputArea {
+  display: flex;
+  justify-content: center;
+}
+
+.inputArea input {
+  width: 40rem;
+  height: 2rem;
+  font-size: 1.3em;
+}
