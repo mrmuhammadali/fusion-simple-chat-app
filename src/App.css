@@ -3,7 +3,8 @@ body {
 }
 
 .root {
-  width: 50rem;
+  width: 95%;
+  max-width: 50rem;
   margin: 0 auto;
   padding: 0.5rem;
   display: flex;
@@ -23,7 +24,8 @@ body {
 .message {
   padding: 0.5rem;
   background: #ccc;
-  width: 30rem;
+  max-width: 30rem;
+  width: 60%;
   margin: 0.2rem;
   border-radius: 5px;
 }
@@ -40,7 +42,8 @@ body {
 }
 
 .inputArea input {
-  width: 40rem;
+  width: 80%;
+  max-width: 40rem;
   height: 2rem;
   font-size: 1.3em;
 }
