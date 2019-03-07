@@ -3,14 +3,16 @@
   "version": "0.1.0",
   "main": "index.js",
   "dependencies": {
-    "fusion-cli": "^1.12.1",
-    "fusion-core": "^1.10.0",
+    "@material-ui/core": "^3.9.2",
+    "fusion-cli": "^1.18.0",
+    "fusion-core": "^1.10.4",
+    "fusion-plugin-material-ui": "^0.1.3",
     "fusion-plugin-react-helmet-async": "^1.0.2",
     "fusion-plugin-socket-io": "^0.1.1",
-    "fusion-react": "^1.3.4",
+    "fusion-react": "^2.0.0",
     "fusion-tokens": "^1.1.1",
-    "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4"
   },
   "scripts": {
     "dev": "fusion dev",
@@ -20,6 +22,6 @@
     "start": "fusion start"
   },
   "devDependencies": {
-    "enzyme": "^3.7.0"
+    "enzyme": "^3.9.0"
   }
 }
